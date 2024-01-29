@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+#table1 {
+    position: absolute;
+    top: 0;
+    border-collapse: collapse;
+}
+
+#table1 th, #table1 td {
+    border: 1px solid #dddddd;
+    font-weight: 1;
+    font-size: small;
+    text-align: left;
+    min-width: 100px;
+    padding-top: 5px;
+}
+
+#table1 td:nth-child(even) {
+    text-align: right;
+}
+
+#table2 {
+    position: absolute;
+    bottom: 0;
+    border-collapse: collapse;
+}
+
+#table2 th, #table2 td {
+    border: 1px solid #dddddd;
+    font-size: small;
+    text-align: center;
+    min-width: 100px;
+    padding: 5px;
+}
